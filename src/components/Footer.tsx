@@ -104,17 +104,17 @@ export default function Footer() {
             <h3 className="font-bold uppercase tracking-wider mb-8">
               NEWSLETTER
             </h3>
-            <div className="bg-[#0b0a17] w-fit py-14 px-10 border border-white/5 rounded-sm">
-              <h4 className="font-bold mb-8 text-xl text-gray-300 text-center md:text-left tracking-wide">
+            <div className="bg-[#0b0a17] w-full py-8 md:py-14 px-6 md:px-10 border border-white/5 rounded-sm">
+              <h4 className="font-bold mb-8 text-lg md:text-xl text-gray-300 text-center md:text-left tracking-wide">
                 Subscribe for latest articles and resources
               </h4>
-              <form className="flex bg-white p-1.5 rounded-sm relative items-center h-16 max-w-md">
+              <form className="flex flex-col md:flex-row bg-white p-1.5 rounded-sm relative items-stretch md:items-center md:h-16 gap-1.5 md:gap-0">
                 <input
                   type="email"
                   placeholder="Email Address"
-                  className="bg-transparent flex-1 text-black px-4 text-sm outline-none placeholder:text-gray-400 font-medium h-full"
+                  className="bg-transparent flex-1 text-black px-4 text-sm outline-none placeholder:text-gray-400 font-medium py-3 md:py-0 md:h-full"
                 />
-                <button className="bg-[#3B82F6] text-white px-5 h-full text-xs font-bold uppercase tracking-widest hover:bg-blue-700 transition-colors rounded-sm">
+                <button className="bg-[#3B82F6] text-white px-4 md:px-5 py-3 md:py-0 md:h-full text-xs font-bold uppercase tracking-widest hover:bg-blue-700 transition-colors rounded-sm md:rounded-none">
                   Register
                 </button>
               </form>
